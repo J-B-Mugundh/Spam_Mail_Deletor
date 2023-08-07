@@ -31,7 +31,9 @@ int main() {
         {"user3@example.com", "Spam content 2"},
         {"user2@example.com", "Spam content 1"}, // Duplicate spam content
         {"user1@example.com", "Important message 2"},
-        {"user1@example.com", "Duplicate email content"}
+        {"user1@example.com", "Duplicate email content"},
+        {"user1@example.com", "Important message 1"},
+        {"user2@example.com", "Spam content 1"}
     };
 
     vector<Email> filteredEmails = filterSpamMails(emails);
